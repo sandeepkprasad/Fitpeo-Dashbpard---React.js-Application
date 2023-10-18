@@ -18,7 +18,7 @@ const profileData = [
 
 const Sidebar = () => {
   return (
-    <div className="w-1/6 min-h-[100vh] bg-indigo-950 px-2 pt-5 pb-10 fixed top-0 left-0 space-y-10">
+    <div className="w-1/6 min-h-[100vh] bg-indigo-950 px-2 pt-5 pb-10 fixed top-0 left-0 space-y-10 hidden md:block">
       <div className="flex text-gray-300 space-x-2 px-3">
         <BiSolidDashboard className="text-3xl" />
         <span className="font-semibold text-xl tracking-wide">Dashboard</span>

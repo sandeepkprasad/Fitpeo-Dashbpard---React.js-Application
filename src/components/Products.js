@@ -26,7 +26,7 @@ const Products = () => {
     <div className="w-full h-full p-0 space-y-3">
       <div className="flex justify-between">
         <p className="font-bold text-xs text-slate-400">Product Name</p>
-        <div className="flex space-x-16">
+        <div className="flex space-x-14 md:space-x-16">
           <p className="font-bold text-xs text-slate-400">Stock</p>
           <p className="font-bold text-xs text-slate-400">Price</p>
           <p className="font-bold text-xs text-slate-400">Total Sales</p>
@@ -36,8 +36,11 @@ const Products = () => {
       {products &&
         products.map((currItem, index) => {
           return (
-            <div className="w-full flex justify-between" key={index}>
-              <div className="flex items-center space-x-2">
+            <div
+              className="w-full flex justify-between pb-3 md:pb-0"
+              key={index}
+            >
+              <div className="md:flex items-center md:space-x-2">
                 <img
                   src={currItem.image}
                   alt="..."

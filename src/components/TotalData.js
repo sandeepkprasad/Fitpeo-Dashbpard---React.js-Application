@@ -5,7 +5,7 @@ import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const TotalData = () => {
   return (
-    <div className="w-full flex space-x-8">
+    <div className="w-full md:flex space-x-0 md:space-x-8 space-y-4 md:space-y-0">
       <div className="total-card">
         <div className="bg-green-100 rounded-full p-7">
           <RiExchangeDollarLine className="text-5xl text-green-600" />

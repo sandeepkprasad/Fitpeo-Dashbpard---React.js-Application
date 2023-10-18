@@ -3,9 +3,9 @@ import { BiSearch } from "react-icons/bi";
 
 const ProductSellHeader = () => {
   return (
-    <div className="w-full h-full p-0 flex justify-between">
+    <div className="w-full h-full p-0 md:flex md:justify-between space-y-3 md:space-y-0">
       <h4 className="font-bold text-lg text-gray-900">Product Sell</h4>
-      <div className="flex space-x-5">
+      <div className="flex space-x-16 md:space-x-5">
         <div className="flex items-center bg-white rounded-lg py-1 px-2">
           <BiSearch className="text-2xl text-gray-400" />
           <input

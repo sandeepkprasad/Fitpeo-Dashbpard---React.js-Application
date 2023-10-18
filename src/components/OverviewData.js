@@ -25,8 +25,8 @@ const OverviewData = () => {
   }, []);
 
   return (
-    <div className="flex w-full space-x-8">
-      <div className="w-[67%] h-[320px] bg-white rounded-xl p-5">
+    <div className="md:flex w-full md:space-x-8">
+      <div className="w-full md:w-[67%] h-[320px] bg-white rounded-xl p-2 md:p-5">
         <div className="flex justify-between">
           <div>
             <h4 className="font-bold text-lg text-gray-900">Overview</h4>
@@ -51,7 +51,7 @@ const OverviewData = () => {
               earningData.map((currItem) => {
                 return (
                   <li className="text-center" key={currItem.id}>
-                    <div className="w-10 h-48 relative top-[10px] flex items-end">
+                    <div className="w-5 md:w-10 h-48 relative top-[10px] flex items-end">
                       <div
                         className={`w-full ${currItem.earning}
                          ${
@@ -70,7 +70,7 @@ const OverviewData = () => {
           </ul>
         </div>
       </div>
-      <div className="w-[30%] h-[320px] bg-white rounded-xl p-5 space-y-5">
+      <div className="w-full md:w-[30%] h-[320px] bg-white rounded-xl p-5 space-y-5">
         <div className="w-fit">
           <h4 className="font-bold text-lg text-gray-900">Customers</h4>
           <p className="font-bold text-xs text-slate-400">
@@ -92,7 +92,7 @@ const OverviewData = () => {
             version="1.1"
             width="160px"
             height="160px"
-            id="circle-svg"
+            className="absolute md:bottom-[20%] right-[33%] md:right-[9%]"
           >
             <defs>
               <linearGradient id="GradientColor">

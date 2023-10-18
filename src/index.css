@@ -2,14 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth;
+}
+
+body {
+    @apply ml-[0px] md:ml-[230px];
+}
+
 .sidebar-items {
-    @apply hover:bg-gray-300/20 rounded-md hover:text-gray-300 text-gray-400 text-xs p-2 flex justify-between hover:shadow;
+    @apply hover:bg-gray-300/20 rounded-md hover:text-gray-300 text-gray-400 text-base md:text-xs p-4 md:p-2 flex justify-between hover:shadow;
 }
 
 .home {
-    @apply w-full bg-gray-100 px-10 py-5 space-y-8;
+    @apply w-full bg-gray-100 px-2 md:px-10 py-2 md:py-5 space-y-8;
 }
 
 .total-card {
-    @apply w-1/4 flex items-center space-x-2 bg-white rounded-lg px-3 py-5;
+    @apply w-full md:w-1/4 flex items-center space-x-2 bg-white rounded-lg px-3 py-5;
 }

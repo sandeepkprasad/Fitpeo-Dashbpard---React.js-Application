@@ -4,10 +4,10 @@ import { BiSearch } from "react-icons/bi";
 const Header = () => {
   return (
     <div className="w-full flex justify-between items-center">
-      <div>
+      <div className="w-fit">
         <h4 className="font-bold text-lg text-gray-900">Hello Sandeep 👋🏼,</h4>
       </div>
-      <div className="flex items-center bg-white rounded-lg py-1 px-2">
+      <div className="w-fit flex items-center bg-white rounded-lg py-1 px-2">
         <BiSearch className="text-2xl text-gray-400" />
         <input
           type="text"

@@ -1,10 +1,5 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Lato', sans-serif;
-  margin-left: 230px;
 }
 
 circle {
@@ -13,10 +8,4 @@ circle {
   stroke-width: 20px;
   stroke-dasharray: 472;
   stroke-dashoffset: 165;
-}
-
-#circle-svg {
-  position: absolute;
-  bottom: 20%;
-  right: 9%;
 }
